@@ -1,0 +1,55 @@
+* {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    padding: 1px;
+
+}
+
+main {
+    background-color: rgba(54, 54, 165, 0.336);
+}
+
+main>* {
+    display: inline-block;
+    vertical-align: top;
+}
+
+main {
+    height: 100%;
+}
+
+aside {
+    width: 25%;
+    height: 100%;
+}
+
+section>* {
+    padding: 0 5px 5px;
+}
+
+section {
+    width: 70%;
+}
+
+header,
+nav,
+aside,
+section,
+footer {
+    background-color: rgba(65, 65, 182, 0.486);
+}
+
+article {
+    background-color: rgba(62, 62, 224, 0.781);
+}
+
+details {
+    background-color: rgb(5, 5, 255);
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
